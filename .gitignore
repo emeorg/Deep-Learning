@@ -1,0 +1,71 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# --- Data & Models ---
+# Ignore large dataset files across the project
+*.csv
+*.xlsx
+*.json
+*.npz
+*.npy
+*.parquet
+*.h5
+*.pth
+*.pt
+*.pkl
+*.joblib
+*.onnx
+*.weights
+
+# Specific repository data/outputs
+# We allow the directories but ignore generated content
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+
+# Models/trained weights directory (if only used for artifacts)
+models/trained_weights/
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log

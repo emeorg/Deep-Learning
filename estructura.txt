@@ -1,0 +1,23 @@
+deep_learning_t1/
+│
+├── main.py
+│
+├── config/
+│   └── settings.py
+│
+├── data/
+│   ├── fetch_api.py
+│   ├── dataset_builder.py
+│   └── preprocessing.py
+│
+├── models/
+│   ├── dnn_model.py
+│   └── automl.py
+│
+├── utils/
+│   └── helpers.py
+│
+└── outputs/
+    ├── datasets/
+    ├── models/
+    └── plots/
