@@ -112,3 +112,7 @@ def fetch_weather_data_multi(batch_size=5, wait_minutes=2):
         success(f"PROCESO FINALIZADO. Dataset total: {final_size}")
     else:
         warning("El proceso terminó pero no se generó ningún archivo.")
+
+# Alias para compatibilidad con cuadernos previos
+def fetch_weather_data():
+    fetch_weather_data_multi()
