@@ -9,6 +9,7 @@ openpyxl
 # Deep Learning
 tensorflow
 keras-tuner
+tensorboard
 
 # Jupyter Environment
 jupyter
