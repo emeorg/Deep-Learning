@@ -1,16 +1,2 @@
-# Core Dependencies
-numpy
-pandas
 requests
-scikit-learn
-matplotlib
-openpyxl
-
-# Deep Learning
-tensorflow
-keras-tuner
-tensorboard
-
-# Jupyter Environment
-jupyter
-ipykernel
+polars
