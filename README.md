@@ -29,28 +29,21 @@ El trabajo considera instalación local de modelos, diseño de prompts, generaci
 
 ```text
 .
-├── README.md
+├── datasets/
+│   ├── llama3.2_3b_dataset.jsonl
+│   ├── mistral_7b_dataset.jsonl
+│   └── phi3_mini_dataset.jsonl
+│
 ├── prompts/
 │   └── prompts.md
-│
-├── datasets/
-│   ├── llama_dataset.csv
-│   ├── phi_dataset.csv
-│   └── mistral_dataset.csv
 │
 ├── scripts/
 │   └── generar_datos.py
 │
-├── capturas/
-│   ├── neofetch.png
-│   ├── ollama_list.png
-│   └── ejecucion_modelos.png
-│
-├── resultados/
-│   └── comparacion.md
-│
-└── presentacion/
-    └── presentacion.pdf
+├── .gitignore
+├── README.md
+└── requirements.txt
+
 ```
 
 # Entorno de Ejecución
@@ -209,9 +202,3 @@ La comparación incluirá:
 * Relevancia respecto al tópico
 * Diversidad
 * Cumplimiento del formato solicitado
-
-Los resultados serán almacenados en:
-
-```text
-resultados/comparacion.md
-```
