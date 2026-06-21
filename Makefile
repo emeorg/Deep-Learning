@@ -24,6 +24,10 @@ run: setup pull-models
 	@echo "Iniciando pipeline de generacion de datos..."
 	$(PYTHON) scripts/generar_datos.py
 
+metricas: setup
+	@echo "Generando métricas y gráficos de los modelos..."
+	$(PYTHON) scripts/generar_metricas.py
+
 clean:
 	@echo "Limpiando entorno virtual y archivos generados..."
 	rm -rf $(VENV_DIR)
@@ -36,5 +40,6 @@ help:
 	@echo "  make setup    - Crea el entorno virtual e instala las dependencias"
 	@echo "  make pull-models - Descarga los modelos de Ollama necesarios para el proyecto"
 	@echo "  make run      - Ejecuta el script de Python (creará el entorno y descargará modelos si no existen)"
+	@echo "  make metricas - Genera las métricas y gráficos de los modelos en HTML"
 	@echo "  make clean    - Elimina el entorno virtual y borra los datasets generados"
 	@echo "  make help     - Muestra este mensaje de ayuda"

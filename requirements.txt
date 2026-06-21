@@ -1,2 +1,5 @@
-requests
 polars
+plotly
+numpy
+sentence-transformers
+langdetect
