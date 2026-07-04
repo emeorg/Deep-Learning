@@ -14,9 +14,8 @@ El trabajo considera instalación local de modelos, diseño de prompts, generaci
 
 # Integrantes
 
-* Nombre Integrante 1
-* Nombre Integrante 2
-* Nombre Integrante 3
+* Michelle Ramírez
+* Lucas Vicuña
 
 # Objetivos
 
@@ -109,7 +108,6 @@ mistral:7b     6577803aa9a0    4.4 GB    8 seconds ago
 phi3:mini      4f2222927938    2.2 GB    3 minutes ago
 llama3.2:3b    a80c4f17acd5    2.0 GB    5 minutes ago
 ```
-
 
 # Tópico
 Generación de un dataset de preguntas frecuentes (FAQ) y consultas de soporte técnico orientadas a usuarios de una plataforma de hosting e infraestructura cloud. Los textos simularán dudas de clientes sobre el despliegue de contenedores Docker, configuración de bases de datos PostgreSQL utilizando estructuras dinámicas (JSONB), y las garantías de disponibilidad de un modelo de hosting estándar de 4 niveles con resiliencia máxima Tier IV.
